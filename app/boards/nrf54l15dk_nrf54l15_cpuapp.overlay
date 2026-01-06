@@ -1,0 +1,18 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Dyson Cool BLE Controller overlay for nRF54L15-DK
+ *
+ * GPIO pins:
+ * - P1.14: IR transmitter output (38kHz carrier)
+ */
+
+/* Enable GPIOTE20 for P1 pin output (TX carrier toggle) */
+&gpiote20 {
+	status = "okay";
+};
+
+/* Enable TIMER21 for TX 38kHz carrier generation */
+&timer21 {
+	status = "okay";
+};
