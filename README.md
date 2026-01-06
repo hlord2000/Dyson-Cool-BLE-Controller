@@ -6,6 +6,21 @@ BLE peripheral for nRF54L15-DK that controls a Dyson Cool fan via IR. Send comma
 - **Board:** nRF54L15-DK
 - **IR TX:** P1.14 (connect to IR LED with driver circuit)
 
+## BOM
+
+| Part | Link |
+|------|------|
+| Adafruit IR Remote Transceiver (STEMMA JST PH 2mm) | [Adafruit 5990](https://www.adafruit.com/product/5990) |
+| JST PH 2mm 4-Pin to Female Socket Cable | [Adafruit 3950](https://www.adafruit.com/product/3950) |
+
+<p align="center">
+  <img src="https://cdn-shop.adafruit.com/970x728/5990-00.jpg" width="300" alt="IR Transceiver"/>
+</p>
+
+<p align="center">
+  <img src="https://cdn-shop.adafruit.com/970x728/3950-02.jpg" width="300" alt="JST Cable"/>
+</p>
+
 ## BLE Commands
 Write single byte to characteristic `12345678-1234-5678-1234-56789abcdef1`:
 
